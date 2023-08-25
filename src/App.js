@@ -45,7 +45,7 @@ function App() {
   return (
     <>
     <div className="App">
-     
+     <div className ="container">
       <h1>Eduard Wilson P2</h1>
       <Input value={num1} onChange={handleNum1Change} placeholder="First number" />
       <Input value={num2} onChange={handleNum2Change} placeholder="Second number" />
@@ -57,6 +57,7 @@ function App() {
 
       </div>
       <h1>Answer: {result}</h1>
+      </div>
     </div>
     </>
   );

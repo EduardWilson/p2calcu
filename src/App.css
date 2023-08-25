@@ -1,26 +1,36 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #181816;
   text-align: center;
-  margin: 0 auto;
-  padding: 40px;
-  background-color: #f4f4f4;
-  border-radius: 10px;
-  width: 300px;
-
 }
 
+
 h1 {
-  color: #333;
+  color: #ffffff;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #000000;
+  padding: 0 20px 20px;
 }
 
 input {
-  width: 100%;
   padding: 10px;
-  margin: 10px 0;
+  margin: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 button {
+  width: 100px;
   padding: 10px 20px;
   margin: 5px;
   background-color: #808080;
@@ -29,4 +39,3 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-
